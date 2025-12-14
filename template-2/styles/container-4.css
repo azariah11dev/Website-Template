@@ -1,0 +1,42 @@
+.container-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.container-4-card-1, .container-4-card-2, .container-4-card-3,
+.container-4-card-4, .container-4-card-5, .container-4-card-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    width: 390px;
+    height: 200px;
+}
+
+.container-4-card-1-icon-1, .container-4-card-2-icon-2, .container-4-card-3-icon-3,
+.container-4-card-4-icon-4, .container-4-card-5-icon-5, .container-4-card-6-icon-6 {
+    border: 1px solid lightslategrey;
+    display: flex;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.container-4-card-1-text-1, .container-4-card-2-text-2, .container-4-card-3-text-3,
+.container-4-card-4-text-4, .container-4-card-5-text-5, .container-4-card-6-text-6 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 290px;
+    height: 140px;
+}
