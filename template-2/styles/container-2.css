@@ -1,0 +1,45 @@
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-2-right-bar {
+    color: darkblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    gap: 5px;
+}
+
+.container-2-left-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    gap: 15px;
+}
+
+.container-2-left-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    gap: 15px;
+}
+
+.home, .about, .services, .contact, .dropdown {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
