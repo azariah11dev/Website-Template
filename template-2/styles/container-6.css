@@ -1,0 +1,36 @@
+.container-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+    padding-top: 90px;
+}
+
+.container-6-text-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-6-mini-board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    padding-left: 150px;
+}
+
+.container6-mini-board-1, .container6-mini-board-2, .container6-mini-board-3,
+.container6-mini-board-4, .container6-mini-board-5, .container6-mini-board-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 360px;
+    height: 360px;
+}
